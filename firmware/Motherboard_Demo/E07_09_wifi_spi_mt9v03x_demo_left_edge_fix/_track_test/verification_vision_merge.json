@@ -1,0 +1,208 @@
+{
+  "firmware": "fw98-vision-merge",
+  "verified_at": "2026-10-20T21:32:38.8057976+08:00",
+  "archive_path": "LOCAL_INPUT_ARCHIVE_NOT_PUBLISHED",
+  "archive_sha256": "8759756E26242286B96FDBB1C566CDEBC05251FEA124E333CACA8B90ED56A15E",
+  "baseline_backup": "LOCAL_BACKUP_NOT_PUBLISHED",
+  "native_build_log": "mdk/build_vision_merge.log",
+  "native_errors": 0,
+  "native_warnings": 32,
+  "xdata_bytes": 42980,
+  "code_bytes": 143611,
+  "host_cases_passed": 91,
+  "host_groups": {
+    "control_commands": 35,
+    "servo_driver": 7,
+    "ring_rearm": 6,
+    "ring_exit": 9,
+    "bottom_occlusion": 5,
+    "selected_temporal_mode": 4,
+    "synchronous_sdk": 7,
+    "synchronous_frame": 8,
+    "vision_integration": 10
+  },
+  "hardware_tested": false,
+  "preview_rows": [
+    45,
+    33,
+    20
+  ],
+  "max_steering_degrees": 18,
+  "continuous_line_loss_ms": 300,
+  "differential_gain": 0.4,
+  "temporal_median_enabled": true,
+  "processing_image": [
+    94,
+    59
+  ],
+  "capture_image": [
+    188,
+    120
+  ],
+  "excluded_bottom_processing_rows": 1,
+  "async_latest_frame_feature_cancelled": true,
+  "motion_config_preserved_except_firmware_tag": true,
+  "main_function_bodies_preserved": true,
+  "control_sources_preserved": true,
+  "network_settings_preserved": true,
+  "ring_exit_bridge_and_raw_white_checks_preserved": true,
+  "source_hashes": [
+    {
+      "path": "code\\cross_road.c",
+      "sha256": "A1724AC7D0E0880D16273AB1F4E6BE0D2E297476C19E9DF24CE2510B1CB60CFE"
+    },
+    {
+      "path": "code\\cross_road.h",
+      "sha256": "3D12E9781FD10DFFA437A31DE2F08EB0D526BD173FB717A052AD0C020C8B8F7C"
+    },
+    {
+      "path": "code\\image_process.c",
+      "sha256": "83E5CD274B8A11765551EC633C7FBF8AD0AA89BCEF3064C8DDD284ADF13F7126"
+    },
+    {
+      "path": "code\\image_process.h",
+      "sha256": "9B47ADD38B3A9840FC330019E3A06BDF265AE962DE081F0C8B33B1FD30C8E077"
+    },
+    {
+      "path": "code\\ring_road.c",
+      "sha256": "04C11F1154D575BB93572ADF13FC513A123664DE20EE42C2E9312BC84874343C"
+    },
+    {
+      "path": "code\\ring_road.h",
+      "sha256": "013AE52A58AD32DB664596FF7D5822201BC68A58646A6457AE8C7B7108ACC063"
+    },
+    {
+      "path": "code\\track_edge.c",
+      "sha256": "6E786CE8705C9094906F5A5E2ADD117F5B69C440E1DDAE5D75D7107E28CF80A1"
+    },
+    {
+      "path": "code\\track_edge.h",
+      "sha256": "891D3974C4DC4523E10154D22F6F353E60609A5D0C1A2822A935C19FF013CD57"
+    },
+    {
+      "path": "code\\vision_geometry.h",
+      "sha256": "A7CFA19CD4B1161B8473145B48B2375711ABC57A87274AD02BC00417DCDE4D32"
+    },
+    {
+      "path": "user\\car_config.h",
+      "sha256": "87A7D5AC001B84E2DFF7CEB048B60EF32D6CF25581607CF36D3DBF8F4A7D817A"
+    },
+    {
+      "path": "user\\car_control.c",
+      "sha256": "C7268BCE14DFD1FA2A95B0B5BDBEE9C8920F26A7A0447DB9BE0243E988AFB745"
+    },
+    {
+      "path": "user\\car_control.h",
+      "sha256": "5C49D82CE249E8F973E0C4ECB464381F81802B3E7F1EAAA99F24C2DB4D5EA3BF"
+    },
+    {
+      "path": "user\\car_drive.c",
+      "sha256": "904ACD16EAB25B314DA06B7B4F20D85B13AA54AE0DC33E6BDC8F6E8C3B0D5A92"
+    },
+    {
+      "path": "user\\car_drive.h",
+      "sha256": "E50A9EDB4C6976510F68AE3B0CE17CEE02F4850A44F441F8521187E191C4A531"
+    },
+    {
+      "path": "user\\car_image_upload.c",
+      "sha256": "6BB2F4ED694E486C79F41803F65CD0616E5C8F28779F2D99E7A83DA107E0141A"
+    },
+    {
+      "path": "user\\car_image_upload.h",
+      "sha256": "D07C4C264421D826136C9B1DF34DFCC4A2B3566619F97D312A877ACD1A057203"
+    },
+    {
+      "path": "user\\car_motor.c",
+      "sha256": "18D5A78D44C7252904E589E421B842E6B2CC486F6FA711D72034F494294B79E1"
+    },
+    {
+      "path": "user\\car_motor.h",
+      "sha256": "B608041D070CF1AE985771D95C11FC3AD759A355669376938F7697C82C052B47"
+    },
+    {
+      "path": "user\\car_servo.c",
+      "sha256": "03EF11C6B88C886AF13A1F4F18CAC8943C9C6AE5A506FD92CB0A9F5E6A8DB58F"
+    },
+    {
+      "path": "user\\car_servo.h",
+      "sha256": "623090BF05E408866E83F2DD186791D07EA9F9331B6EE652BB8F61AD334523BD"
+    },
+    {
+      "path": "user\\isr.c",
+      "sha256": "7B932EB7F1BFFD35AC41E3FC0EE9D17A3CD82DE113ADDB066D177999E3E36815"
+    },
+    {
+      "path": "user\\isr.h",
+      "sha256": "0AF2FAD9C816A1BDF9C0895F311406E0CCB54A3CD9C5507201147F816B5EC5BE"
+    },
+    {
+      "path": "user\\main.c",
+      "sha256": "203F4E1B2F56FCD35A9AB8F39C864F24884A72291E6851EE2092370A8BD0041A"
+    }
+  ],
+  "changed_files": [
+    {
+      "before_sha256": "C62099839C051F9C95E216C4E598DC9F2048DC420987A46641293B8B96EBD160",
+      "after_sha256": "A1724AC7D0E0880D16273AB1F4E6BE0D2E297476C19E9DF24CE2510B1CB60CFE",
+      "path": "code\\cross_road.c"
+    },
+    {
+      "before_sha256": "D3EBD1DA9D33C381DB681918D2F93FEA16D18AE68F79FF855F416E4D9B25B8C2",
+      "after_sha256": "83E5CD274B8A11765551EC633C7FBF8AD0AA89BCEF3064C8DDD284ADF13F7126",
+      "path": "code\\image_process.c"
+    },
+    {
+      "before_sha256": "D8FA929929EABA92008229EC99A282C0556693C866FAF4069F7366756172AF32",
+      "after_sha256": "04C11F1154D575BB93572ADF13FC513A123664DE20EE42C2E9312BC84874343C",
+      "path": "code\\ring_road.c"
+    },
+    {
+      "before_sha256": "588D3AEEA2925880686738C8D626DB73BF25D128B209F56705CAA917A46C0F22",
+      "after_sha256": "013AE52A58AD32DB664596FF7D5822201BC68A58646A6457AE8C7B7108ACC063",
+      "path": "code\\ring_road.h"
+    },
+    {
+      "before_sha256": "F5D0EB005FA2CAD092AB5E0C04164D4C38FC4999805DF4B3A201360E6795F81B",
+      "after_sha256": "6E786CE8705C9094906F5A5E2ADD117F5B69C440E1DDAE5D75D7107E28CF80A1",
+      "path": "code\\track_edge.c"
+    },
+    {
+      "before_sha256": "BC81FABCBA7759CDE270476B1A0BF2AEB1A58A87705E1554EFFEBCD71E235C83",
+      "after_sha256": "891D3974C4DC4523E10154D22F6F353E60609A5D0C1A2822A935C19FF013CD57",
+      "path": "code\\track_edge.h"
+    },
+    {
+      "before_sha256": "F3DCA94218E462FD4ABCE0A88937996AF2CB65E30B1D39141D62CFA4211F5DC1",
+      "after_sha256": "A7CFA19CD4B1161B8473145B48B2375711ABC57A87274AD02BC00417DCDE4D32",
+      "path": "code\\vision_geometry.h"
+    },
+    {
+      "before_sha256": "70B800679857F7C47C2200BD4186AEDAB5933480B3E5AF85E95A14EC9F43D6AA",
+      "after_sha256": "87A7D5AC001B84E2DFF7CEB048B60EF32D6CF25581607CF36D3DBF8F4A7D817A",
+      "path": "user\\car_config.h"
+    },
+    {
+      "before_sha256": "48CC7BDC88A98F44B63A83FA01ED267908887DF6790F10967F3644BD0B65ADD3",
+      "after_sha256": "203F4E1B2F56FCD35A9AB8F39C864F24884A72291E6851EE2092370A8BD0041A",
+      "path": "user\\main.c"
+    },
+    {
+      "before_sha256": "D4CAC31E6400EE18196C66C9DE30A892637DBEEF706CD1CDD71ECCB0EE601C0A",
+      "after_sha256": "0D9C80AA6AEBC2878F16E4DADC560BBF068BC40CAF880DCBC10010CBBBF1CE41",
+      "path": "_track_test\\test_line_stop.c"
+    },
+    {
+      "before_sha256": "A58D2CCCC70496444102090410DD83EEB90D3CC18FEA9A015BD79AD65BFADB33",
+      "after_sha256": "34487E441F4DF1A8AB70D14CCFCBD060EB47367403559903A606E7C5161F7701",
+      "path": "_track_test\\test_steering_latency.c"
+    },
+    {
+      "before_sha256": "417C5DB33E5152B45CC27580D2B57D75E731ADB1508A5344ECE43C1ACB2E7AEF",
+      "after_sha256": "107FE0BE08C0049DF767E8A7C13C1869C24DA2AD8065FBD54FFF295CD23EABA0",
+      "path": "mdk\\out_file\\SEEKFREE.hex"
+    }
+  ],
+  "hex_sha256": "107FE0BE08C0049DF767E8A7C13C1869C24DA2AD8065FBD54FFF295CD23EABA0",
+  "notes": "Visual-only merge; incoming older controller, car_steer module and dynamic preview excluded. Median executes before the current-image white guard; final steering does not have a guaranteed one-frame lag or noise suppression. Full-pipeline tests reject stale history on black frames. No hardware validation.",
+  "_publication_note": "Historical record. Local personal paths have been removed. Recorded hashes and test results refer to the original historical version."
+}

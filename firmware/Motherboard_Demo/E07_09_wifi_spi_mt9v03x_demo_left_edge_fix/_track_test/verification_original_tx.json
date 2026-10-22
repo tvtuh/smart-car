@@ -1,0 +1,190 @@
+{
+  "firmware": "fw101-original-tx",
+  "verified_at": "2026-10-20T22:33:09.984676+08:00",
+  "backup": "LOCAL_BACKUP_NOT_PUBLISHED",
+  "native_build_log": "mdk/build_original_tx.log",
+  "native_errors": 0,
+  "native_warnings": 32,
+  "xdata_bytes": 42993,
+  "code_bytes": 144156,
+  "host_cases_passed": 86,
+  "host_groups": {
+    "control": 24,
+    "servo": 7,
+    "ring_small": 3,
+    "ring_full": 3,
+    "ring_exit": 9,
+    "bottom": 5,
+    "temporal": 4,
+    "vision1": 10,
+    "vision2": 12,
+    "original_transfer": 9
+  },
+  "hardware_tested": false,
+  "continuous_line_loss_timer_removed": true,
+  "continuous_line_loss_ms": null,
+  "original_frame_loss_policy_preserved": true,
+  "opening_grace_frames": 25,
+  "lost_frames_stop_threshold_exclusive": 80,
+  "normal_all_invalid_first_zero_speed_frame": 106,
+  "valid_line_automatic_recovery_preserved": true,
+  "original_synchronous_sdk_transmission_restored": true,
+  "original_helper_and_window_byte_equal_archive": true,
+  "default_sdk_wifi_send_callback": "wifi_spi_send_buffer",
+  "custom_upload_module_removed": true,
+  "backlog_20ms_gate_removed": true,
+  "custom_short_wait_and_frame_budget_removed": true,
+  "custom_partial_frame_upload_latch_removed": true,
+  "link_window_sends": 6,
+  "link_window_slow_count": 2,
+  "link_slow_threshold_ms": 300,
+  "link_probe_ms": 5000,
+  "normal_heartbeat_ms": 500,
+  "pre_transmission_heartbeat_ms": 1500,
+  "preview_rows": [
+    45,
+    33,
+    20
+  ],
+  "differential_gain": 0.4,
+  "max_steering_degrees": 18,
+  "temporal_median_enabled": true,
+  "processing_image": [
+    94,
+    59
+  ],
+  "capture_image": [
+    188,
+    120
+  ],
+  "network_settings_preserved": true,
+  "visual_sources_byte_equal_before": true,
+  "motor_servo_drive_sources_byte_equal_before": true,
+  "changed_baseline_files": [
+    {
+      "path": "user/car_config.h",
+      "before_sha256": "A95A6139F9FF1D9FFA7A77A646409611EC71C19D77486870F426D94DA3940A93",
+      "after_sha256": "9E2443249A2EA5F57B7852C6FC8F74BD5C62ABE0FF31BBBD7975E92DE81ACB2A"
+    },
+    {
+      "path": "user/car_control.c",
+      "before_sha256": "C7268BCE14DFD1FA2A95B0B5BDBEE9C8920F26A7A0447DB9BE0243E988AFB745",
+      "after_sha256": "5F872F3E0E61E2659AEBC1218BAE67D8CF585E4B48B2A47E7212AA8AFF39418E"
+    },
+    {
+      "path": "user/car_control.h",
+      "before_sha256": "5C49D82CE249E8F973E0C4ECB464381F81802B3E7F1EAAA99F24C2DB4D5EA3BF",
+      "after_sha256": "9BAC4A20C42AAF7EB3A196E1F6AE13023C2699DD288449A6B8DDFE7437060AE1"
+    },
+    {
+      "path": "user/main.c",
+      "before_sha256": "203F4E1B2F56FCD35A9AB8F39C864F24884A72291E6851EE2092370A8BD0041A",
+      "after_sha256": "3719DB750932F516C93B9610AB9FE2BC6C96976C81A393212CB4E82259089964"
+    },
+    {
+      "path": "mdk/seekfree.uvproj",
+      "before_sha256": "DDBB4A4B1A44B78D461C077D1C2AA77D17FD7C8FD6C59641A8B927ADDB025281",
+      "after_sha256": "9B93820BA84CDE1B48DFF5A668DFC2549F56831B7AB76049A45E59FF40C41561"
+    },
+    {
+      "path": "mdk/out_file/SEEKFREE.hex",
+      "before_sha256": "685AEC0B38FFFE641CE69A0449CC0990EBC77AF084BD74F5775806A3F374D9EE",
+      "after_sha256": "6E81B55259C3915C15E68A80021D6DCFADE2D038311E744D5C14B45ED57294B3"
+    }
+  ],
+  "retired_files_with_verified_backups": [
+    "user/car_image_upload.c",
+    "user/car_image_upload.h",
+    "_track_test/test_line_stop.c",
+    "_track_test/test_sync_upload.c"
+  ],
+  "source_hashes": [
+    {
+      "path": "user/car_config.h",
+      "sha256": "9E2443249A2EA5F57B7852C6FC8F74BD5C62ABE0FF31BBBD7975E92DE81ACB2A"
+    },
+    {
+      "path": "user/car_control.c",
+      "sha256": "5F872F3E0E61E2659AEBC1218BAE67D8CF585E4B48B2A47E7212AA8AFF39418E"
+    },
+    {
+      "path": "user/car_control.h",
+      "sha256": "9BAC4A20C42AAF7EB3A196E1F6AE13023C2699DD288449A6B8DDFE7437060AE1"
+    },
+    {
+      "path": "user/car_drive.c",
+      "sha256": "904ACD16EAB25B314DA06B7B4F20D85B13AA54AE0DC33E6BDC8F6E8C3B0D5A92"
+    },
+    {
+      "path": "user/car_drive.h",
+      "sha256": "E50A9EDB4C6976510F68AE3B0CE17CEE02F4850A44F441F8521187E191C4A531"
+    },
+    {
+      "path": "user/car_motor.c",
+      "sha256": "18D5A78D44C7252904E589E421B842E6B2CC486F6FA711D72034F494294B79E1"
+    },
+    {
+      "path": "user/car_motor.h",
+      "sha256": "B608041D070CF1AE985771D95C11FC3AD759A355669376938F7697C82C052B47"
+    },
+    {
+      "path": "user/car_servo.c",
+      "sha256": "03EF11C6B88C886AF13A1F4F18CAC8943C9C6AE5A506FD92CB0A9F5E6A8DB58F"
+    },
+    {
+      "path": "user/car_servo.h",
+      "sha256": "623090BF05E408866E83F2DD186791D07EA9F9331B6EE652BB8F61AD334523BD"
+    },
+    {
+      "path": "user/isr.c",
+      "sha256": "7B932EB7F1BFFD35AC41E3FC0EE9D17A3CD82DE113ADDB066D177999E3E36815"
+    },
+    {
+      "path": "user/isr.h",
+      "sha256": "0AF2FAD9C816A1BDF9C0895F311406E0CCB54A3CD9C5507201147F816B5EC5BE"
+    },
+    {
+      "path": "user/main.c",
+      "sha256": "3719DB750932F516C93B9610AB9FE2BC6C96976C81A393212CB4E82259089964"
+    },
+    {
+      "path": "code/cross_road.c",
+      "sha256": "4D35649EA578721D70A3A650017E0A3C369B7549969961B74FC4AF290F8B8C10"
+    },
+    {
+      "path": "code/cross_road.h",
+      "sha256": "A1FF2F6BBEA874EFCA85C8354A4C741020EBC86B864E62C2700EF1D2567FBAC1"
+    },
+    {
+      "path": "code/image_process.c",
+      "sha256": "83E5CD274B8A11765551EC633C7FBF8AD0AA89BCEF3064C8DDD284ADF13F7126"
+    },
+    {
+      "path": "code/image_process.h",
+      "sha256": "9B47ADD38B3A9840FC330019E3A06BDF265AE962DE081F0C8B33B1FD30C8E077"
+    },
+    {
+      "path": "code/ring_road.c",
+      "sha256": "24DCD84AB8B48D18112FE4F7E2A9ABB6B4E00908D2FA7B4E04C7C69389FD79E4"
+    },
+    {
+      "path": "code/ring_road.h",
+      "sha256": "013AE52A58AD32DB664596FF7D5822201BC68A58646A6457AE8C7B7108ACC063"
+    },
+    {
+      "path": "code/track_edge.c",
+      "sha256": "6E786CE8705C9094906F5A5E2ADD117F5B69C440E1DDAE5D75D7107E28CF80A1"
+    },
+    {
+      "path": "code/track_edge.h",
+      "sha256": "891D3974C4DC4523E10154D22F6F353E60609A5D0C1A2822A935C19FF013CD57"
+    },
+    {
+      "path": "code/vision_geometry.h",
+      "sha256": "A7CFA19CD4B1161B8473145B48B2375711ABC57A87274AD02BC00417DCDE4D32"
+    }
+  ],
+  "hex_sha256": "6E81B55259C3915C15E68A80021D6DCFADE2D038311E744D5C14B45ED57294B3",
+  "code_review": "No blocking findings; reviewer independently reran 24 control and 9 transmission cases.",
+  "_publication_note": "Historical record. Local personal paths have been removed. Recorded hashes and test results refer to the original historical version."
+}

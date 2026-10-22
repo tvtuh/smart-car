@@ -1,0 +1,48 @@
+# Keil C251 build outputs and per-user state
+.build/
+**/out_file/
+**/Objects/
+**/Listings/
+*.obj
+*.o
+*.crf
+*.lst
+*.LST
+*.map
+*.hex
+*.omf
+*.lnp
+*.plg
+*.dep
+*.tra
+*.iex
+*.__i
+*.build_log.htm
+*.uvopt
+*.uvoptx
+*.uvgui*
+*.uvguix*
+*.bak
+*.back
+*.old
+*.exe
+*.dll
+*.log
+# Required vendor .LIB files are intentionally tracked.
+
+# Local credentials and editor state
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+__pycache__/
+*.pyc
+node_modules/
+# Unrelated local website and browser profiles
+xiangqi-deepseek/
+test-results/

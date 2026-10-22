@@ -1,0 +1,9 @@
+# Preserve original firmware bytes and encodings on checkout.
+* -text
+*.md text eol=lf
+*.uvproj -text
+*.ps1 text eol=lf
+*.xlsx binary
+*.LIB binary
+*.lib binary
+*.png binary

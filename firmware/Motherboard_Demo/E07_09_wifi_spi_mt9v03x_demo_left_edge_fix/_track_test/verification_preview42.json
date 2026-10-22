@@ -1,0 +1,134 @@
+{
+  "firmware": "fw103-preview42",
+  "verified_date": "2026-10-21",
+  "preview_rows": [
+    42,
+    30,
+    17
+  ],
+  "previous_preview_rows": [
+    45,
+    33,
+    20
+  ],
+  "advance_processing_rows": 3,
+  "preview_weights": [
+    20,
+    30,
+    60
+  ],
+  "runtime_mid_far_lower_rows": [
+    20,
+    7
+  ],
+  "runtime_mid_far_upper_rows": [
+    40,
+    27
+  ],
+  "reset_command": "r",
+  "native_build_log": "mdk/build_preview42.log",
+  "native_errors": 0,
+  "native_warnings": 32,
+  "xdata_bytes": 42357,
+  "const_bytes": 17672,
+  "code_bytes": 139704,
+  "host_cases_passed": 31,
+  "host_groups": {
+    "control_preview_quiet_uart": 31
+  },
+  "all_other_production_sources_and_project_preserved": true,
+  "wifi_ip_preserved": true,
+  "quiet_uart_preserved": true,
+  "original_sync_image_flow_preserved": true,
+  "hardware_tested": false,
+  "backup": "LOCAL_BACKUP_NOT_PUBLISHED",
+  "previous_verification_report": "_track_test/verification_quiet_uart.json",
+  "source_hashes": [
+    {
+      "sha256": "204E89F13C1DAAD11B3C6A3097036CFE08160FDD151DCE5107B23F4604EFBE0D",
+      "path": "user\\car_config.h"
+    },
+    {
+      "sha256": "E8FC93C50CDE5915577BEAE0FC1A7A4BEC580C5AEF7B0906B4178DADC727AD75",
+      "path": "user\\car_control.c"
+    },
+    {
+      "sha256": "AE5409B0AB45D023B7C5FDA2889CBE9CE3D347BC4240A8BB146A417C91343128",
+      "path": "user\\car_control.h"
+    },
+    {
+      "sha256": "904ACD16EAB25B314DA06B7B4F20D85B13AA54AE0DC33E6BDC8F6E8C3B0D5A92",
+      "path": "user\\car_drive.c"
+    },
+    {
+      "sha256": "E50A9EDB4C6976510F68AE3B0CE17CEE02F4850A44F441F8521187E191C4A531",
+      "path": "user\\car_drive.h"
+    },
+    {
+      "sha256": "18D5A78D44C7252904E589E421B842E6B2CC486F6FA711D72034F494294B79E1",
+      "path": "user\\car_motor.c"
+    },
+    {
+      "sha256": "B608041D070CF1AE985771D95C11FC3AD759A355669376938F7697C82C052B47",
+      "path": "user\\car_motor.h"
+    },
+    {
+      "sha256": "03EF11C6B88C886AF13A1F4F18CAC8943C9C6AE5A506FD92CB0A9F5E6A8DB58F",
+      "path": "user\\car_servo.c"
+    },
+    {
+      "sha256": "623090BF05E408866E83F2DD186791D07EA9F9331B6EE652BB8F61AD334523BD",
+      "path": "user\\car_servo.h"
+    },
+    {
+      "sha256": "7B932EB7F1BFFD35AC41E3FC0EE9D17A3CD82DE113ADDB066D177999E3E36815",
+      "path": "user\\isr.c"
+    },
+    {
+      "sha256": "0AF2FAD9C816A1BDF9C0895F311406E0CCB54A3CD9C5507201147F816B5EC5BE",
+      "path": "user\\isr.h"
+    },
+    {
+      "sha256": "30DD963E6BA9A114D981AADDA2FB15913270E17AE7F5AC92DD0F4606DF1FA5C6",
+      "path": "user\\main.c"
+    },
+    {
+      "sha256": "4D35649EA578721D70A3A650017E0A3C369B7549969961B74FC4AF290F8B8C10",
+      "path": "code\\cross_road.c"
+    },
+    {
+      "sha256": "A1FF2F6BBEA874EFCA85C8354A4C741020EBC86B864E62C2700EF1D2567FBAC1",
+      "path": "code\\cross_road.h"
+    },
+    {
+      "sha256": "83E5CD274B8A11765551EC633C7FBF8AD0AA89BCEF3064C8DDD284ADF13F7126",
+      "path": "code\\image_process.c"
+    },
+    {
+      "sha256": "9B47ADD38B3A9840FC330019E3A06BDF265AE962DE081F0C8B33B1FD30C8E077",
+      "path": "code\\image_process.h"
+    },
+    {
+      "sha256": "24DCD84AB8B48D18112FE4F7E2A9ABB6B4E00908D2FA7B4E04C7C69389FD79E4",
+      "path": "code\\ring_road.c"
+    },
+    {
+      "sha256": "013AE52A58AD32DB664596FF7D5822201BC68A58646A6457AE8C7B7108ACC063",
+      "path": "code\\ring_road.h"
+    },
+    {
+      "sha256": "6E786CE8705C9094906F5A5E2ADD117F5B69C440E1DDAE5D75D7107E28CF80A1",
+      "path": "code\\track_edge.c"
+    },
+    {
+      "sha256": "891D3974C4DC4523E10154D22F6F353E60609A5D0C1A2822A935C19FF013CD57",
+      "path": "code\\track_edge.h"
+    },
+    {
+      "sha256": "A7CFA19CD4B1161B8473145B48B2375711ABC57A87274AD02BC00417DCDE4D32",
+      "path": "code\\vision_geometry.h"
+    }
+  ],
+  "hex_sha256": "986472F71141B30C2E9746874D9AEEA3E6E26E5EDA34B25E1A523DC3CFEEFFEE",
+  "_publication_note": "Historical record. Local personal paths have been removed. Recorded hashes and test results refer to the original historical version."
+}

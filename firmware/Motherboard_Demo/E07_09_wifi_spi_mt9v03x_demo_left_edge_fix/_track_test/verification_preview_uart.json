@@ -1,0 +1,99 @@
+{
+  "firmware": "fw97-preview-uart",
+  "verified_at": "2026-10-18T21:57:46.2961842+08:00",
+  "native_build_log": "mdk/build_preview_uart.log",
+  "native_errors": 0,
+  "native_warnings": 32,
+  "xdata_bytes": 42506,
+  "code_bytes": 142749,
+  "host_cases_passed": 81,
+  "host_groups": {
+    "control_commands": 35,
+    "servo_driver": 7,
+    "ring_rearm_small": 3,
+    "ring_rearm_full": 3,
+    "ring_exit": 9,
+    "bottom_occlusion": 5,
+    "current_frame_vision": 4,
+    "synchronous_sdk": 7,
+    "synchronous_frame": 8
+  },
+  "preview_rows": [
+    45,
+    33,
+    20
+  ],
+  "preview_earliest": [
+    45,
+    23,
+    10
+  ],
+  "preview_latest": [
+    45,
+    43,
+    30
+  ],
+  "slew_degrees_per_10ms": 4,
+  "slew_step_max_degrees": 36,
+  "max_steering_degrees": 18,
+  "continuous_line_loss_ms": 300,
+  "differential_gain": 0.4,
+  "hardware_tested": false,
+  "async_latest_frame_feature_cancelled": true,
+  "network_definitions_preserved": 5,
+  "configuration_definitions_audited": 169,
+  "configuration_definitions_changed": 5,
+  "source_hashes": [
+    {
+      "path": "user/main.c",
+      "sha256": "48CC7BDC88A98F44B63A83FA01ED267908887DF6790F10967F3644BD0B65ADD3"
+    },
+    {
+      "path": "user/car_control.c",
+      "sha256": "C7268BCE14DFD1FA2A95B0B5BDBEE9C8920F26A7A0447DB9BE0243E988AFB745"
+    },
+    {
+      "path": "user/car_control.h",
+      "sha256": "5C49D82CE249E8F973E0C4ECB464381F81802B3E7F1EAAA99F24C2DB4D5EA3BF"
+    },
+    {
+      "path": "user/car_config.h",
+      "sha256": "70B800679857F7C47C2200BD4186AEDAB5933480B3E5AF85E95A14EC9F43D6AA"
+    },
+    {
+      "path": "user/car_image_upload.c",
+      "sha256": "6BB2F4ED694E486C79F41803F65CD0616E5C8F28779F2D99E7A83DA107E0141A"
+    },
+    {
+      "path": "user/car_image_upload.h",
+      "sha256": "D07C4C264421D826136C9B1DF34DFCC4A2B3566619F97D312A877ACD1A057203"
+    },
+    {
+      "path": "code/track_edge.h",
+      "sha256": "BC81FABCBA7759CDE270476B1A0BF2AEB1A58A87705E1554EFFEBCD71E235C83"
+    },
+    {
+      "path": "LOCAL_PATH_NOT_PUBLISHED",
+      "sha256": "C42407EFE3DAB8370ED0E25D074D075815B4EF07F0A990E41093AFCC0189AEC0"
+    },
+    {
+      "path": "LOCAL_PATH_NOT_PUBLISHED",
+      "sha256": "F0DFD4E04C46F633B74A561A2C790B772618F7753BD0295AF3432514C13381ED"
+    },
+    {
+      "path": "LOCAL_PATH_NOT_PUBLISHED",
+      "sha256": "040A0340482A9F8464A4819BDDC5321269ED4AA2DE8B84410DA77195DCF7B837"
+    },
+    {
+      "path": "LOCAL_PATH_NOT_PUBLISHED",
+      "sha256": "1F60771E1D019993DC6EE00D01DD16B2BD0C444D950B9244A49486ADD44D059B"
+    },
+    {
+      "path": "user/car_servo.c",
+      "sha256": "03EF11C6B88C886AF13A1F4F18CAC8943C9C6AE5A506FD92CB0A9F5E6A8DB58F"
+    }
+  ],
+  "hex_sha256": "417C5DB33E5152B45CC27580D2B57D75E731ADB1508A5344ECE43C1ACB2E7AEF",
+  "notes": "Earlier preview and live single-byte UART tuning; unused diagnostics command entries removed. Query replies intentionally wait for no queued camera frame; settings apply immediately. Servo-test timing progresses before deferred replies. Motion/vision/upload regression checks passed; no physical validation.",
+  "_publication_note": "Historical record. Local personal paths have been removed. Recorded hashes and test results refer to the original historical version."
+}
